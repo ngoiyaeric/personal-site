@@ -14,44 +14,49 @@ export const Experience = () => {
 
 const experience = [
   {
-    title: "1Kit",
-    position: "Co-Founder, CTO, Lead Programmer",
+    title: "Queue",
+    position: "Founder, CTO, Lead Programmer",
     time: "May 2023 - Present",
     location: "Toronto, ON",
-    description: `Established an ed-tech startup focused on addressing challenges students and researchers face while accessing and managing information on the web.\n
-    Conceptualized, developed, and deployed a dynamic and responsive MVP with novel features extracted from interviews with potential users. \n
-    Spearheaded the design of a scalable infrastructure on AWS with optimized data storage, laying foundation for future data analytics capabilities and minimizing AWS costs by 29.17%.\n
-    Iterated pitch decks, business plans, and cash flow projections, with final versions assessed by over 300 judges worldwide, resulting in our selection as finalists in a startup incubator.`,
+    description: 
+    `Established an audio-tech startup focused on addressing challenges impaired users face while accessing and managing information on the web.
+    Conceptualized, developed, and deployed a dynamic and responsive MVP with novel features extracted from interviews with potential users.
+    Spearheaded the design of a scalable infrastructure on GCP with optimized data storage, laying foundation for future data analytics capabilities and minimizing GCP costs by 27.18%.
+    Established relationships with partners for software licensing aggreements. 
+`,
     tech: [
-      "TypeScript",
-      "Amazon Web Services (AWS)",
-      "Chrome Manifest V3",
-      "Webpack",
-      "Node.js",
-      "Express.js",
+      "Python",
+      "Google Cloud Platform (GCP)",
+      "Go",
+      "Open ai",
+      "Amazon Code Whisperer",
+      "Virtuoso",
       "PostgreSQL",
-      "React",
-      "SCSS",
+      "Rust",
       "Git"
     ],
   },
   {
-    title: "Hack the 6ix",
-    position: "Full-Stack Developer",
-    time: "Summer 2023",
+    title: "York University",
+    position: "information technology administrator",
+    time: "september 2019 - april 2020",
     location: "Toronto, ON",
-    description: `Developed reusable, stylized components in React and TypeScript for the hackathon’s landing page, driving 3000+ unique views and 1200+ hacker applications.\n
-    Utilized the Notion API to fetch and display hacker information, schedule, and resources to 250+ hackers.`,
-    tech: ["TypeScipt", "SCSS", "MongoDB", "React", "Storyboard", "Git"],
+    description: `Provisioned Information Technology support for a team of 30+ office personnel using a ticketing system; servicing hardware, software and network technical support, mitigating risk of downtime by 27%.
+    Collaborated in a cross-functional team to ship new features for the company website.
+    Registered new workstation users onto the company network ensuring the right credentials and permissions are provisioned for each user.
+    Performed routine data back up for company servers and website as well as liaising with software vendors for software purchases.
+    Frequent monitoring and auditing of connected devices; TVs, landlines, 2+ on-premise servers and over 30+ connected workstation computers on both windows and Linux as well as creating technical and functional documentation for workstation users and IT personnel.
+`,
+    tech: ["Vmware esxi", "Windows server", "Active Directory", "BrightSign", "Google Workspace", "Wordpress", "CrashPlan", "Windows Credentials"],
   },
   {
-    title: "EnrichAI",
-    position: "Software Engineering Intern",
-    time: "July 2022 - Aug 2022",
-    location: "Gurgaon, India",
-    description: `Developed an automated testing suite consisting of unit, integration, end-to-end, and usability tests for an IoT waste collection solution.\n
-    Automated >97% of tests using WebdriverIO and Selenium, reducing testing time by 99.1% (from 10 minutes to 32 seconds).\n
-    Facilitated identification of failed tests and increased ease of test analysis by automatically generating color-coded reports with screenshots and timestamps.`,
-    tech: ["JavaScript", "WebDriverIO", "Python", "Selenium"],
+    title: "Genesis Hackathon",
+    position: "Backend engineer",
+    time: "June 2019",
+    location: "Toronto, ON",
+    description: `Developed a solution to provide new comers in Canada with answers to frequently asked questions about the area\n
+    fine-tuned Genesis' proprietary natural language model with question and answer pairs using http posts to their api over tcp.\n
+    developed a nosql database to store new questions for further model fine-tuning.`,
+    tech: ["Genesis API", "NoSQL", "Python", "Postman"],
   },
 ];

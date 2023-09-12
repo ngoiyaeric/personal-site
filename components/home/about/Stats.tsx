@@ -17,13 +17,13 @@ export const Stats = () => {
           </h4>
           <div className={styles.statGrid}>
             <span className="chip">Python</span>
-            <span className="chip">C/C++</span>
-            <span className="chip">C#</span>
+            <span className="chip">C</span>
+            <span className="chip">Go</span>
             <span className="chip">Java</span>
             <span className="chip">JavaScript</span>
             <span className="chip">TypeScript</span>
             <span className="chip">SQL</span>
-            <span className="chip">Assembly</span>
+            <span className="chip">Rust</span>
             <span className="chip">SCSS</span>
             <span className="chip">HTML/CSS</span>
           </div>
@@ -37,18 +37,10 @@ export const Stats = () => {
           </h4>
           <div className={styles.statGrid}>
             <span className="chip">TensorFlow</span>
-            <span className="chip">PyTorch</span>
-            <span className="chip">Scikit-learn</span>
-            <span className="chip">Pandas</span>
-            <span className="chip">Matplotlib</span>
-            <span className="chip">Keras</span>
             <span className="chip">React.js</span>
-            <span className="chip">Node.js</span>
-            <span className="chip">Express.js</span>
-            <span className="chip">Svelte.js</span>
             <span className="chip">Flask</span>
             <span className="chip">Django</span>
-            <span className="chip">GraphQL</span>
+      
           </div>
         </div>
       </Reveal>
@@ -60,9 +52,8 @@ export const Stats = () => {
           </h4>
           <div className={styles.statGrid}>
             <span className="chip">Git/GitHub</span>
-            <span className="chip">Amazon Web Services (AWS)</span>
+            <span className="chip">Google Cloud Platform (GCP)</span>
             <span className="chip">MySQL</span>
-            <span className="chip">MongoDB</span>
             <span className="chip">PostgreSQL</span>
           </div>
         </div>

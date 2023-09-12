@@ -38,7 +38,7 @@ export const Hero = () => {
       <div className={styles.copyWrapper}>
         <Reveal>
           <h1 className={styles.title}>
-            hi, i&apos;m rudy<span>.</span>
+            hi, i&apos;m eric<span>.</span>
           </h1>
         </Reveal>
         <Reveal>
@@ -49,7 +49,7 @@ export const Hero = () => {
         <Reveal>
           <div className={styles.aboutCopy}>
             <p>
-              -&gt; compsci, math, and stats student @ uoft <br /> <br /> 
+              -&gt; compsci graduate from york university <br /> <br /> 
               -&gt; building <span>impactful</span>, <span>scalable</span>, and <span>secure</span> software <br /> <br /> 
               -&gt; passionate about machine learning, backend development, &emsp; and innovation
               {/* <br />
@@ -85,7 +85,7 @@ export const Hero = () => {
           <StandardButton
             onClick={() => document.getElementById("contact")?.scrollIntoView()}
           >
-            contact me
+            contact e
           </StandardButton>
         </Reveal>
       </div>

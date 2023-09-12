@@ -13,28 +13,15 @@ export const About = () => {
         <div>
           <Reveal>
             <p className={`${styles.aboutText} ${styles.highlightFirstLetter}`}>
-              hello world🫡, i&apos;m rudy. i&apos;m a young adult entering my 20&apos;s
-              with a burning desire to build cool sh!t. my goal lies in making innovative
+              hello world🫡, i&apos;m eric. i&apos;m a young adult entering my mid 20&apos;s
+              with a burning desire to build cool stuff. my goal lies in making innovative
               solutions that bring value into the lives of their users.
             </p>
           </Reveal>
           <Reveal>
             <p className={styles.aboutText}>
-              outside of development and tech, my interests lie in rock climbing, hip-hop,
-              and working out. you&apos;ll often find me listening to the latest {" "}
-              <a target="_blank" 
-                href="https://spotify.link/LpGiJgTTMBb"
-              >
-                hip-hop
-              </a>{" "}
-              songs or filming a{" "} 
-              <a
-              target="_blank"
-              href="https://www.youtube.com/channel/UCG-cKd4nkUg4U-UKeIbt1iw"
-              >
-                youtube
-              </a>{" "}
-              video about my life as a university student.
+              outside of development and tech, my interests lie in design, art,
+              and working out. you&apos;ll often find me sketching, or reading philosophy. 
             </p>
           </Reveal>
           <Reveal>
@@ -43,50 +30,25 @@ export const About = () => {
                 now:
               </p>
               <p className={styles.aboutText}>
-                i&apos;m a 3rd year computer science major (with a focus in ai)/math minor/stats
-                 minor at the university of toronto.
+                i&apos;m a computer science graduate from the York University.
+                also working on getting google cloud certified
               </p>
               <p className={styles.aboutText}>
-                a co-founder and cto of an ed-tech productivity startup within the{" "}
-                <a
-                target="_blank"
-                href="https://hatchery.engineering.utoronto.ca/nest-info-page/"
-                >
-                  uoft hatchery
-                </a>&apos;s nest incubation program.
+                a founder and cto of an immersive audio & ai startup.
               </p>
+        
               <p className={styles.aboutText}>
-                a web development executive on {" "}
-                <a
-                  target="_blank"
-                  href="https://hackthe6ix.com"
-                >
-                  hack the 6ix
-                </a>&apos;s organizing team.
-              </p>
-              <p className={styles.aboutText}>
-                focusing summer on learning new technologies and delving 
+                focusing on learning new technologies and delving 
                 deeper into machine learning and artificial intelligence. 
               </p>
               <p className={styles.aboutText} style={{ fontWeight: "bold" }}>
                 previously:
               </p>
               <p className={styles.aboutText}>
-                wrote some test automation code as a swe intern at{" "}
-                <a href="https://enrichai.com" target="_blank">
-                  enrichAI
-                </a>
-                .
+                worked in an information technology administrator role. 
+
               </p>
-              <p className={styles.aboutText}>
-                did {" "}
-                <a
-                target="_blank"
-                href="https://link.springer.com/article/10.1007/s11277-020-07301-6"
-                >research</a> {" "}
-                on using particle swarm optimation to perform feature selection
-                for classification models.
-              </p>
+              
             </div>
           </Reveal>
           <Reveal>

@@ -1,13 +1,13 @@
 :root {
   font-size: 62.5%;
 
-  --background: rgb(217, 202, 179);
-  --bg-opaque: rgba(217, 202, 179, 0.25);
-  --background-light: rgb(213, 184, 141);
-  --background-dark: rgb(217, 202, 179);
+  --background: #F5F5F5; /* Light gray background */
+  --bg-opaque: rgba(245, 245, 245, 0.25); /* Opaque light gray background */
+  --background-light: #FFFFFF; /* White background */
+  --background-dark: #212121; /* Dark gray background */
 
-  --text: rgb(0, 0, 0);
-  --brand: rgb(4, 114, 77);
+  --text: #000000; /* Black text */
+  --brand: #000000; /* Black brand color */
 
   --text-xs: 1.6rem;
   --text-sm: 1.8rem;
@@ -16,6 +16,9 @@
   --text-xl: 5.6rem;
   --text-2xl: 9.6rem;
 }
+
+/* Rest of your CSS styles remain the same */
+
 
 * {
   box-sizing: border-box;

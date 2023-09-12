@@ -12,7 +12,7 @@ export const MyLinks = () => {
         transition={{ duration: 0.5, delay: 0.0 }}
       >
         <Link
-          href="https://www.linkedin.com/in/rudraksh-monga/"
+          href="https://www.linkedin.com/in/eric-ngoiya/"
           target="_blank"
           rel="nofollow"
         >
@@ -26,7 +26,7 @@ export const MyLinks = () => {
         transition={{ duration: 0.5, delay: 0.1 }}
       >
         <Link
-          href="https://github.com/whyismynamerudy"
+          href="https://github.com/ngoiyaeric"
           target="_blank"
           rel="nofollow"
         >
@@ -40,7 +40,7 @@ export const MyLinks = () => {
         transition={{ duration: 0.5, delay: 0.1 }}
       >
         <Link
-          href="https://twitter.com/wimnr9745"
+          href="www.ereq.live"
           target="_blank"
           rel="nofollow"
         >
@@ -54,7 +54,7 @@ export const MyLinks = () => {
         transition={{ duration: 0.5, delay: 0.1 }}
       >
         <Link
-          href="https://medium.com/@whyismynamerudy"
+          href="https://medium.com/@eicngoiya"
           target="_blank"
           rel="nofollow"
         >

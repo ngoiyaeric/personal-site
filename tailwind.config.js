@@ -12,13 +12,14 @@ module.exports = {
         inter: ["Inter", "sans-serif"],
       },
       colors: {
-        background: "rgb(17, 17, 17)",
-        "bg-opaque": "rgba(17, 17, 17, 0.25)",
-        "background-light": "rgb(35, 35, 35)",
-        "background-dark": "rgb(8, 8, 8)",
-        textcolour: "rgb(235, 236, 243)",
-        brand: "rgb(0, 255, 234)",
+        background: "rgb(0, 0, 0)", // Set background to black
+        "bg-opaque": "rgba(0, 0, 0, 0.25)", // Set opaque background to black with reduced opacity
+        "background-light": "rgb(255, 255, 255)", // Set light background to white
+        "background-dark": "rgb(0, 0, 0)", // Set dark background to black
+        textcolour: "rgb(255, 255, 255)", // Set text color to white
+        brand: "rgb(0, 0, 0)", // Set brand color to black
       },
+      
     },
   },
   plugins: [],
