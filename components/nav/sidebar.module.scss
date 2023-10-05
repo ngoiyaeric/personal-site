@@ -1,26 +1,22 @@
 .sideBar {
-  background: var(--background-dark);
-
+  background: black;
+  color: white;
   height: 100vh;
-
   position: sticky;
   top: 0px;
   left: 0px;
   z-index: 20;
-
   display: flex;
   flex-direction: column;
   align-items: center;
   overflow-y: scroll;
-
-  -ms-overflow-style: none; /* IE and Edge */
-  scrollbar-width: none; /* Firefox */
+  -ms-overflow-style: none;
+  scrollbar-width: none;
 
   a {
     height: 100px;
     text-decoration: none;
     flex-shrink: 0;
-
     writing-mode: vertical-lr;
     font-size: var(--text-sm);
     font-weight: 500;
@@ -28,17 +24,14 @@
     align-items: center;
     justify-content: center;
     opacity: 0.5;
-
     border-right: 1px solid transparent;
-
     transition: 0.1s all;
     width: 100%;
-  }
 
-  a:hover {
-    background: var(--background);
-    border-right: 1px solid var(--brand);
-    opacity: 1;
+    &:hover {
+      color: black; /* Change text color to black on hover */
+      background: white; /* Change background to white on hover */
+    }
   }
 
   .selected {
@@ -46,35 +39,4 @@
     border-right: 1px solid var(--brand);
     opacity: 1;
   }
-}
-
-.logo {
-  flex-shrink: 0;
-
-  font-size: var(--text-md);
-  font-weight: 700;
-  line-height: 1;
-
-  width: 45px;
-  height: 45px;
-
-  display: flex;
-  align-items: center;
-  justify-content: center;
-
-  background: var(--background);
-  border-radius: 4px;
-
-  margin: 1.8rem 0;
-
-  span {
-    font-size: var(--text-md);
-    font-weight: 700;
-    line-height: 1;
-    color: var(--brand);
-  }
-}
-
-.sideBar::-webkit-scrollbar {
-  display: none;
 }

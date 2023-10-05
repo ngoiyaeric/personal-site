@@ -1,19 +1,19 @@
 import "@styles/globals.css";
-import { IBM_Plex_Mono, Poppins } from "next/font/google";
+import { Sacramento , Dancing_Script } from "next/font/google";
 
-const ibm_plex_mono = IBM_Plex_Mono({
-  weight: ["100", "200", "400", "700"],
+const ibm_plex_mono = Dancing_Script({
+  weight: ["400", "400", "500", "700"],
   subsets: ["latin"],
 });
 
-const poppins = Poppins({
-  weight: ["100", "200", "400", "700", "900"],
+const poppins = Dancing_Script({
+  weight: ["400", "400", "600", "700", "500"],
   subsets: ["latin"],
 });
 
 export const metadata = {
-  title: "Eric's Portfolio",
-  description: "Eric's Personal Portfolio Site",
+  title: "E Portfolio",
+  description: "E Personal Portfolio Site",
 };
 
 export default function RootLayout({

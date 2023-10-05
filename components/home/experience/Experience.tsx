@@ -14,15 +14,12 @@ export const Experience = () => {
 
 const experience = [
   {
-    title: "Queue",
-    position: "Founder, CTO, Lead Programmer",
+    title: "Queue Enterprises",
+    position: "Information Technology Engineer",
     time: "May 2023 - Present",
     location: "Toronto, ON",
     description: 
-    `Established an audio-tech startup focused on addressing challenges impaired users face while accessing and managing information on the web.
-    Conceptualized, developed, and deployed a dynamic and responsive MVP with novel features extracted from interviews with potential users.
-    Spearheaded the design of a scalable infrastructure on GCP with optimized data storage, laying foundation for future data analytics capabilities and minimizing GCP costs by 27.18%.
-    Established relationships with partners for software licensing aggreements. 
+    `Designing and implementing cost efficient, highly available, secure, fault tolerant and scalable cloud native Information Technology solutions within Google Cloud Platform
 `,
     tech: [
       "Python",
@@ -54,8 +51,8 @@ const experience = [
     position: "Backend engineer",
     time: "June 2019",
     location: "Toronto, ON",
-    description: `Developed a solution to provide new comers in Canada with answers to frequently asked questions about the area\n
-    fine-tuned Genesis' proprietary natural language model with question and answer pairs using http posts to their api over tcp.\n
+    description: `Developed a solution to provide foreigners in Canada with answers to frequently asked questions about the area\n
+    fine-tuned Genesis' proprietary natural language model with question and answer pairs using http posts to their api over http.\n
     developed a nosql database to store new questions for further model fine-tuning.`,
     tech: ["Genesis API", "NoSQL", "Python", "Postman"],
   },

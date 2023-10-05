@@ -31,10 +31,10 @@ export const About = () => {
               </p>
               <p className={styles.aboutText}>
                 i&apos;m a computer science graduate from the York University.
-                also working on getting google cloud certified
+                also working on getting cloud certified
               </p>
               <p className={styles.aboutText}>
-                a founder and cto of an immersive audio & ai startup.
+                a founding engineer and cto of an immersive audio & ai startup.
               </p>
         
               <p className={styles.aboutText}>
