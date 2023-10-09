@@ -9,7 +9,7 @@ export const Heading = () => {
       <OutlineButton
         onClick={() => window.open("/Eric_Ngoiya_Resume.pdf")}
       >
-        ésumé
+        Resume
       </OutlineButton>
     </header>
   );

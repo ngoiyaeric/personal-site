@@ -1,19 +1,19 @@
 import "@styles/globals.css";
-import { Sacramento , Dancing_Script } from "next/font/google";
+import { Sacramento , Foldit } from "next/font/google";
 
-const ibm_plex_mono = Dancing_Script({
-  weight: ["400", "400", "500", "700"],
+const ibm_plex_mono = Foldit({
+  weight: ["400", "400", "400", "400"],
   subsets: ["latin"],
 });
 
-const poppins = Dancing_Script({
-  weight: ["400", "400", "600", "700", "500"],
+const poppins = Foldit({
+  weight: ["400", "400", "400", "400", "400"],
   subsets: ["latin"],
 });
 
 export const metadata = {
-  title: "E Portfolio",
-  description: "E Personal Portfolio Site",
+  title: "Eric",
+  description: "E",
 };
 
 export default function RootLayout({

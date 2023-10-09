@@ -38,7 +38,7 @@ export const Hero = () => {
       <div className={styles.copyWrapper}>
         <Reveal>
           <h1 className={styles.title}>
-            hi, i&apos;m E<span>.</span>
+            hi, i&apos;m Eric<span>.</span>
           </h1>
         </Reveal>
         <Reveal>
@@ -50,8 +50,8 @@ export const Hero = () => {
           <div className={styles.aboutCopy}>
             <p>
               -&gt; compsci graduate from york university <br /> <br /> 
-              -&gt; building <span>impactful</span>, <span>scalable</span>, and <span>secure</span> software <br /> <br /> 
-              -&gt; passionate about machine learning, backend development, &emsp; and infrastructure.
+              -&gt; building <span>impactful</span>, <span> scalable </span>, and <span> secure </span> software <br /> <br /> 
+              -&gt; passionate about machine learning, backend engineering, and infrastructure.
            
             </p>
             <br />

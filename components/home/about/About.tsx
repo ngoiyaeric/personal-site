@@ -13,15 +13,15 @@ export const About = () => {
         <div>
           <Reveal>
             <p className={`${styles.aboutText} ${styles.highlightFirstLetter}`}>
-              hello world🫡, i&apos;m eric. i&apos;m a young adult entering my mid 20&apos;s
-              with a burning desire to build cool stuff. my goal lies in making innovative
-              solutions that bring value into the lives of their users.
+              hello world⚡, i&apos;m eric. i&apos;m a young adult entering my mid 20&apos;s
+              with a burning desire to build useful technologies. i strive to craft solutions that bring value to users' lives.
+             
             </p>
           </Reveal>
           <Reveal>
             <p className={styles.aboutText}>
               outside of development and tech, my interests lie in design, art,
-              and working out. you&apos;ll often find me sketching, or reading philosophy. 
+              and working out. you&apos;ll often find me drawing🎨, or reading philosophy. 
             </p>
           </Reveal>
           <Reveal>
@@ -30,22 +30,20 @@ export const About = () => {
                 now:
               </p>
               <p className={styles.aboutText}>
-                i&apos;m a computer science graduate from the York University.
-                also working on getting cloud certified
+                i&apos;m a computer science graduate from the York University🎓.
+                also working on getting cloud☁️ certified
               </p>
-              <p className={styles.aboutText}>
-                a founding engineer and cto of an immersive audio & ai startup.
-              </p>
+              
         
               <p className={styles.aboutText}>
                 focusing on learning new technologies and delving 
-                deeper into machine learning and artificial intelligence. 
+                deeper into machine learning and artificial intelligence🤖. 
               </p>
               <p className={styles.aboutText} style={{ fontWeight: "bold" }}>
                 previously:
               </p>
               <p className={styles.aboutText}>
-                worked in an information technology administrator role. 
+                worked in an information technology administrator role👨🏿‍💻. 
 
               </p>
               

@@ -26,9 +26,8 @@ const experience = [
       "Google Cloud Platform (GCP)",
       "Go",
       "Open ai",
-      "Amazon Code Whisperer",
-      "Virtuoso",
       "PostgreSQL",
+      "Redis",
       "Rust",
       "Git"
     ],
@@ -47,13 +46,36 @@ const experience = [
     tech: ["Vmware esxi", "Windows server", "Active Directory", "BrightSign", "Google Workspace", "Wordpress", "CrashPlan", "Windows Credentials"],
   },
   {
-    title: "Genesis Hackathon",
-    position: "Backend engineer",
-    time: "June 2019",
-    location: "Toronto, ON",
-    description: `Developed a solution to provide foreigners in Canada with answers to frequently asked questions about the area\n
-    fine-tuned Genesis' proprietary natural language model with question and answer pairs using http posts to their api over http.\n
-    developed a nosql database to store new questions for further model fine-tuning.`,
-    tech: ["Genesis API", "NoSQL", "Python", "Postman"],
+    title: "Parking Legends",
+    position: "Volunteer Junior Android Engineer",
+    time: "June 2019 - July 2019",
+    location: "North York, ON",
+    description: 
+    `http://parkinglegends.com/www/easypark/index.php:
+    implemented features for a scalable android application to find parking spaces
+`,
+    tech: [
+      "Java",
+      "Android Studio",
+      "Kotlin",
+    ],
   },
-];
+     
+    {
+      title: "Ferina Office",
+      position: "Store Administrator",
+      time: "May 2015 - September 2015",
+      location: "Dar es salaam, TZ",
+      description: 
+      `Working with printers, scanners and other office adminitrative equipment to provide services to customers`,
+      tech: [
+        "Drivers",
+        "Printers",
+        "Scanners",
+        "Photocopy Machines",
+        "Microsoft Office",
+        "Portable Point Of Sale System",
+      ],
+    },
+
+    ]

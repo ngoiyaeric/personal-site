@@ -19,27 +19,24 @@ export const Projects = () => {
 
 const projects = [
   {
-    title: "Project",
-    imgSrc: "", //642 x 408
+    title: "Tensorflow",
+    imgSrc: "/project-imgs/t.png", //642 x 408
     code: "https://github.com/link",
     projectLink: "",
-    tech: ["tech", "tech", "tech", "Mtech"],
+    tech: ["Google Cloud Platform", "Tensorflow", "Python", "Jupyter Notebooks"],
     description:
-      "An end-to-end sentence-level lipreading model capable of mapping a variable-length sequence of video frames to text.",
+      "Language, Speech, Text & Translation",
     modalContent: (
       <>
         <p>
-          I developed a deep learning model and a data transformation pipeline using 
-          TensorFlow that is able to process video data and predict the spoken words
-          present in the video with an accuracy of 92.3%; my first exploration of deep
-          learning!
+          'Working with Speech-to-Text API to transcribe an audio file into a text file, the Cloud Translation API to translate from one language to another, the Cloud Translation API to detect what language is being used and translate to a different language, the Natural Language API to classify text and analyze sentiment, and create synthetic speech.'
         </p>
       </>
     ),
   },
   {
     title: "Tesla Battery Visualizer",
-    imgSrc: "./images/Tbattery.png",
+    imgSrc: "./project-imgs/QT.jpg",
     code: "https://github.com/ngoiyaeric/personal-site",
     projectLink: "https://battery-visualizer.vercel.app/",
     tech: ["Javascript, Redux.js, React.js, Tailwind CSS"],
@@ -49,8 +46,7 @@ const projects = [
       <>
         <p>
           Visualizer tool for checking battery health for Tesla cars so users can predict battery
-          health in various weather conditions using react.js components and redux.js for state management Tools: React,
-          Redux & Vercel Link: battery visualizer
+          health in various weather conditions using react.js components and redux.js for state management
         </p>
         <p style={{ fontStyle: "italic" }}>
           I&apos;wonder how a real time version of this application would work, perhaps I would need to learn abit of electrical engineering to understand that. 
@@ -79,6 +75,58 @@ const projects = [
           representation (UInt8 (U = unsigned), Int32). Fine-tuned conversion functions
         </p>
   
+      </>
+    ),
+  },
+  
+
+  {
+    title: "IBM Weavesphere",
+    imgSrc: "/project-imgs/ibm.jpg", //642 x 408
+    code: "",
+    projectLink: "",
+    tech: ["White Board", "Markers"],
+    description:
+      "IBM Design Thinking Certification",
+    modalContent: (
+      <>
+        <p>
+         `Participated in a design sprint to craft a solution for job scarcity for computer science graduates, learnt about key design principles and thinking paradigms. This robot was supposed to send me a photo i let it took of me, it never did, so here is a photo of the robot and i, and its not even smiling`
+        </p>
+      </>
+    ),
+  },
+  {
+    title: "Essence Cube-Sat Mission",
+    imgSrc: "/project-imgs/S.png", //642 x 408
+    code: "https://www.asc-csa.gc.ca/eng/satellites/cubesat/",
+    projectLink: "http://www.yorku.ca/cubesat/",
+    tech: ["Nano-Satelite", "Scripting"],
+    description:
+      "I volunteered to write a short python script that periodically parsed input signals from an electrical measuring equipment on the nano-satelite ",
+    modalContent: (
+      <>
+        <p>
+         `grateful for the opportunity to contribute to the mission'
+        </p>
+      </>
+    ),
+  },
+  {
+    title: "Genesys Hackathon",
+    imgSrc: "/project-imgs/genesys.jpg", //642 x 408
+    code: "",
+    projectLink: "https://www.blogto.com/events/genesys-hackathon-toronto-2/",
+    tech: ["Genesis API", "NoSQL", "Python", "Postman"],
+    description:
+      "Visitors Guide",
+    modalContent: (
+      <>
+        <p>
+         `Developed a solution to provide foreigners in Canada with answers to frequently asked questions about the area.
+          Fine-tuned Genesis' proprietary natural language model with question and answer pairs using http posts to their api over http.
+          developed a nosql database to store new questions for further model fine-tuning.`
+        </p>
       </>
     ),
   },
