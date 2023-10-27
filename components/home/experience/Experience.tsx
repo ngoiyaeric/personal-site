@@ -19,7 +19,7 @@ const experience = [
     time: "May 2023 - Present",
     location: "Toronto, ON",
     description: 
-    `Designing and implementing cost efficient, highly available, secure, fault tolerant and scalable cloud native Information Technology solutions within Google Cloud Platform
+    `Designing and implementing cost efficient, highly available, secure, fault tolerant and scalable cloud native Information Technology solutions within Cloud Platforms.
 `,
     tech: [
       "Python",
@@ -43,7 +43,7 @@ const experience = [
     Performed routine data back up for company servers and website as well as liaising with software vendors for software purchases.
     Frequent monitoring and auditing of connected devices; TVs, landlines, 2+ on-premise servers and over 30+ connected workstation computers on both windows and Linux as well as creating technical and functional documentation for workstation users and IT personnel.
 `,
-    tech: ["Vmware esxi", "Windows server", "Active Directory", "BrightSign", "Google Workspace", "Wordpress", "CrashPlan", "Windows Credentials"],
+    tech: ["Vmware esxi", "Windows server", "Active Directory", "BrightSign", "Google Workspace", "Wordpress", "CrashPlan", "Windows Credentials","Evanced Spaces"],
   },
   {
     title: "Parking Legends",

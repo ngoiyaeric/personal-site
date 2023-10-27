@@ -19,17 +19,17 @@ export const Projects = () => {
 
 const projects = [
   {
-    title: "Tensorflow",
+    title: "Gooogle Cloud Skills Boost",
     imgSrc: "/project-imgs/t.png", //642 x 408
-    code: "https://github.com/link",
-    projectLink: "",
+    code: "",
+    projectLink: "https://www.cloudskillsboost.google/profile/badges",
     tech: ["Google Cloud Platform", "Tensorflow", "Python", "Jupyter Notebooks"],
     description:
-      "Language, Speech, Text & Translation",
+      "Cloud technologies & Artificial Intelligence",
     modalContent: (
       <>
         <p>
-          'Working with Speech-to-Text API to transcribe an audio file into a text file, the Cloud Translation API to translate from one language to another, the Cloud Translation API to detect what language is being used and translate to a different language, the Natural Language API to classify text and analyze sentiment, and create synthetic speech.'
+          'Upskilling through a series of short hands on labs'
         </p>
       </>
     ),

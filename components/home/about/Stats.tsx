@@ -18,7 +18,7 @@ export const Stats = () => {
           <div className={styles.statGrid}>
             <span className="chip">Python</span>
             <span className="chip">C</span>
-            <span className="chip">Go</span>
+            <span className="chip">Rust</span>
             <span className="chip">Java</span>
             <span className="chip">SQL</span>
             <span className="chip">Typescript</span>
@@ -36,6 +36,7 @@ export const Stats = () => {
             <span className="chip">TensorFlow</span>
             <span className="chip">Spring Boot</span>
             <span className="chip">React.js</span>
+             <span className="chip">Android</span>
       
           </div>
         </div>
@@ -52,6 +53,8 @@ export const Stats = () => {
             <span className="chip">PostgreSQL</span>
             <span className="chip">Docker</span>
             <span className="chip">Google Cloud Platform (GCP)</span>
+             <span className="chip">Voltmeter</span>
+            <span className="chip">Oscilloscope</span>
           </div>
         </div>
       </Reveal>
