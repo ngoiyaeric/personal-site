@@ -36,7 +36,7 @@ RUN staticrypt index.html -p ${PASSWORD} --short \
     && rm -r encrypted
 
 # Expose port 80 for the web server
-EXPOSE 80
+EXPOSE 8080
 
 # Define the command to run the application
 CMD ["npm", "start"]
